@@ -24,12 +24,18 @@
     <ClCompile Include="ProductsVector.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
+    <ClCompile Include="Invoice.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Product.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
     <ClInclude Include="ProductsVector.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Invoice.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
   </ItemGroup>

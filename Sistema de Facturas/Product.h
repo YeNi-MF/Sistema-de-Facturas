@@ -1,5 +1,6 @@
 #pragma once
 #include <iostream>
+#include <sstream>
 using namespace std;
 
 class Product
@@ -18,6 +19,8 @@ public:
 	string getCode(); 
 	float getPrice();
 	string getName();
+	string toString(); 
+
 
 	
 

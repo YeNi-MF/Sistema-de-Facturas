@@ -7,15 +7,21 @@ class ProductsVector
 {
 private:
 	Product** productList; 
-	int vectorSize; 
-	int productsPurchased; 
+	int vectorSize=20; 
+	int productsPurchased=0; 
 
 public:
 
-	void setVectorSize(int vectorSize); 
+	 
 	int getVectorSize(); 
 	void createProductList(); 
-	int getProductsPurchased(); 
-
+	int getProductsPurchased();
+	void toString(); 
+	void addDonuts(int amount); 
+	void addMediumCake(int amount); 
+	void addCokiePack(int amount); 
+	void addCupcake(int amount); 
+	void addSliceTresLeches(int amount); 
+	void addCupCoffe(int amount); 
 };
 

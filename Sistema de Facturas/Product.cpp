@@ -42,4 +42,13 @@ string Product::getName()
 	return this->name;
 }
 
+string Product::toString()
+{
+	stringstream s; 
+	s << getName() << endl;
+	s << getPrice() << endl;
+	s << getCode() << endl;
+	return s.str();
+}
+
 
