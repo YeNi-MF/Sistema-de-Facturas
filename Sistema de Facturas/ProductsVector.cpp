@@ -17,7 +17,7 @@ int ProductsVector::getProductsPurchased()
 	return this->productsPurchased; 
 }
 
-void ProductsVector::toString()
+void ProductsVector::printProductList()
 {
 	
 	for (int index = 0; index < productsPurchased; index++)
@@ -125,4 +125,6 @@ void ProductsVector::addCupCoffe(int amount)
 
 	}
 }
+
+
 

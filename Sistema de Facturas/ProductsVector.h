@@ -6,7 +6,7 @@ using namespace std;
 class ProductsVector
 {
 private:
-	Product** productList; 
+	Product** productList= nullptr; 
 	int vectorSize=20; 
 	int productsPurchased=0; 
 
@@ -16,7 +16,7 @@ public:
 	int getVectorSize(); 
 	void createProductList(); 
 	int getProductsPurchased();
-	void toString(); 
+	void printProductList(); 
 	void addDonuts(int amount); 
 	void addMediumCake(int amount); 
 	void addCokiePack(int amount); 
